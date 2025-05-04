@@ -8,7 +8,7 @@ This tool generates placeables from Autodrive config files for FS25
    - Clone the repository: `git clone https://github.com/emwedk/autodrive-i3d-generator.git`
 
 2. **Configuration**
-   - Add your Autodrive config files to the `config` directory
+   - Add your Autodrive config files to the `configs` directory
    - Make sure your designs are centered around x: 0.0 y: 0.0 z: 0.0
 
 3. **Running the Tool**
