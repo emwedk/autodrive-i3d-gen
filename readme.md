@@ -5,8 +5,7 @@ This tool generates placeables of Autodrive config files for FS25
 ### Usage
 
 1. **Installation**
-   - Clone the repository: `git clone https://github.com/your-repo/autodrive-i3d-generator.git`
-   - Navigate to the directory: `cd autodrive-i3d-generator`
+   - Clone the repository: `git clone https://github.com/emwedk/autodrive-i3d-generator.git`
 
 2. **Configuration**
    - Add your Autodrive config files to the `config` directory
