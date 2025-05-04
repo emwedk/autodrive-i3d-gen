@@ -1,6 +1,6 @@
 ## Autodrive I3D Generator
 
-This tool generates placeables of Autodrive config files for FS25
+This tool generates placeables from Autodrive config files for FS25
 
 ### Usage
 
