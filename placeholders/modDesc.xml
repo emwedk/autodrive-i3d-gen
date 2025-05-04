@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="93">
+    <author>Emwe</author>
+	<contributors>AutoDrive Team, Willi Willswissen</contributors>
+    <version>1.0.0.1</version>
+    <title> 
+        <en>AutoDrive Generated Placeables</en>
+    </title>
+    <description>
+        <en> <![CDATA[
+
+Generated Autodrive Placeables.
+
+]]>
+        </en>
+    </description>
+    
+    <l10n></l10n>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon_PLACEHOLDER.png</iconFilename>
+
+    <storeItems></storeItems>
+</modDesc>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AutoDrive>
+  <version>3.0.0.6</version>
+  <MapName>Clear</MapName>
+  <ADRouteVersion>no version defined</ADRouteVersion>
+  <ADRouteAuthor>no Author defined</ADRouteAuthor>
+  <currentDebugChannelMask>0</currentDebugChannelMask>
+  <Pathfinder>2.000000</Pathfinder>
+  <RecordOppositeDriveDirectionOffset>61.000000</RecordOppositeDriveDirectionOffset>
+  <blinkValue>1.000000</blinkValue>
+  <autoConnectEnd>1.000000</autoConnectEnd>
+  <remainingDriveTimeInterval>5.000000</remainingDriveTimeInterval>
+  <collisionHeigth>2.000000</collisionHeigth>
+  <driverWages>3.000000</driverWages>
+  <lookAheadTurning>5.000000</lookAheadTurning>
+  <enableRoutesManagerOnDediServer>1.000000</enableRoutesManagerOnDediServer>
+  <RecordDriveDirectionOffset>61.000000</RecordDriveDirectionOffset>
+  <findDriver>1.000000</findDriver>
+  <mapMarkerDetour>1.000000</mapMarkerDetour>
+  <pathFinderTime>2.000000</pathFinderTime>
+  <autostartHelpers>1.000000</autostartHelpers>
+  <autoConnectStart>2.000000</autoConnectStart>
+  <continueOnEmptySilo>1.000000</continueOnEmptySilo>
+  <useFolders>1.000000</useFolders>
+  <UMRange>1.000000</UMRange>
+  <enableTrafficDetection>1.000000</enableTrafficDetection>
+  <maxTriggerDistance>2.000000</maxTriggerDistance>
+  <waypoints>
+    <id>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</id>
+    <x>-36.0,-36.0,3.1,-3.1,0.0,0.0,0.0,0.0,0.1,-4.0,-4.0,-16.0,-16.0,0.0,0.0,-1.3,-1.3,-26.0,3.1,-3.1</x>
+    <y>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</y>
+    <z>3.1,-3.1,32.0,32.0,-14.0,-5.2,0.0,5.2,14.0,-5.0,5.0,3.1,-3.1,-10.0,10.0,-7.0,7.0,0.0,-32.0,-32.0</z>
+    <out>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,15;15,3,4;13,6,16;12,17,8;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</out>
+    <incoming>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,11,15;15,3,4;13,6,16;12,17;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</incoming>
+    <flags>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0</flags>
+  </waypoints>
+</AutoDrive>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AutoDrive>
+  <version>3.0.0.6</version>
+  <MapName>Clear</MapName>
+  <ADRouteVersion>no version defined</ADRouteVersion>
+  <ADRouteAuthor>no Author defined</ADRouteAuthor>
+  <currentDebugChannelMask>0</currentDebugChannelMask>
+  <Pathfinder>2.000000</Pathfinder>
+  <RecordOppositeDriveDirectionOffset>61.000000</RecordOppositeDriveDirectionOffset>
+  <blinkValue>1.000000</blinkValue>
+  <autoConnectEnd>1.000000</autoConnectEnd>
+  <remainingDriveTimeInterval>5.000000</remainingDriveTimeInterval>
+  <collisionHeigth>2.000000</collisionHeigth>
+  <driverWages>3.000000</driverWages>
+  <lookAheadTurning>5.000000</lookAheadTurning>
+  <enableRoutesManagerOnDediServer>1.000000</enableRoutesManagerOnDediServer>
+  <RecordDriveDirectionOffset>61.000000</RecordDriveDirectionOffset>
+  <findDriver>1.000000</findDriver>
+  <mapMarkerDetour>1.000000</mapMarkerDetour>
+  <pathFinderTime>2.000000</pathFinderTime>
+  <autostartHelpers>1.000000</autostartHelpers>
+  <autoConnectStart>2.000000</autoConnectStart>
+  <continueOnEmptySilo>1.000000</continueOnEmptySilo>
+  <useFolders>1.000000</useFolders>
+  <UMRange>1.000000</UMRange>
+  <enableTrafficDetection>1.000000</enableTrafficDetection>
+  <maxTriggerDistance>2.000000</maxTriggerDistance>
+  <waypoints>
+    <id>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23</id>
+    <x>-36.0,-36.0,36.0,36.0,3.1,-3.1,26.0,0.0,0.0,0.0,0.1,16.0,16.0,-4.0,-4.0,-16.0,-16.0,0.0,1.3,-1.3,-26.0,4.0,4.0</x>
+    <y>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</y>
+    <z>3.1,-3.1,3.1,-3.1,32.0,32.0,0.0,-5.2,0.0,5.2,14.0,-3.1,3.1,-5.0,5.0,3.1,-3.1,10.0,7.0,7.0,0.0,5.0,-5.0</z>
+    <out>21,16;21,17;7,13;7,12;11;11;13,4,3,12;9,10,14;10,8;9,8,22,18;18,5,6;7,4,23;7,3,22;17,8;16,20,10;15,21,1;14,21,2;20,19,11,10;18,22;15,18;17,16,2,1;13,19,10;12,8</out>
+    <incoming>21,16;21,17;7,13;7,12;11;11;13,4,3,12;9,10,23,14;10,8;9,8,15,22,18;18,5,6;7,4,23;7,3,22;17,8;16,20;15,21,1;14,21,2;20,19,11,10;18,22;15,18;17,16,2,1;10,13,19;12</incoming>
+    <flags>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0</flags>
+  </waypoints>
+</AutoDrive>
