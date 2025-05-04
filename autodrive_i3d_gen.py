@@ -1,12 +1,8 @@
-import shutil
+import os, shutil, re, math
 import xml.etree.ElementTree as ET
-import os
-import math
-import re
 
 # Global variable for placeholder name
 PLACEHOLDER = "PLACEHOLDER"
-
 
 def parse_config(file_path):
     tree = ET.parse(file_path)
@@ -76,14 +72,8 @@ def copy_i3d_structure(input_file, output_file, beams_content, lines_content, co
         shapes_elem.set('externalShapesFile', f"{config_name}.i3d.shapes")
 
     scene = root.find('Scene')
-    # generated_group = None
 
     generated_group = traverse_tree_find_path(scene, 'generated')
-
-    # for transform_group in scene.findall('TransformGroup'):
-    #     if transform_group.get('name') == 'generated':
-    #         generated_group = transform_group
-    #         break
 
     if generated_group is not None:
         for child in generated_group.findall('TransformGroup'):
@@ -136,10 +126,6 @@ def update_mod_desc(mod_desc_path, config_name):
     tree = ET.parse(mod_desc_path)
     root = tree.getroot()
 
-    # for elem in root.iter():
-    #     if elem.text and PLACEHOLDER in elem.text:
-    #         elem.text = elem.text.replace(PLACEHOLDER, config_name)
-
     # Update <l10n> section
     l10n_section = root.find('l10n')
     if l10n_section is not None:
@@ -161,10 +147,6 @@ def generate_i3d_file(config_file, input_i3d, output_i3d, config_name):
     beams = []
     lines = []
     node_id_counter = 1000
-    
-    # for i, id in enumerate(ids):
-    #     beams.append(generate_beam(id, x_coords[i], y_coords[i], z_coords[i], node_id_counter))
-    #     node_id_counter += 1
     
     for i, id in enumerate(ids):
         beams.append(generate_beam(id, x_coords[i], y_coords[i], z_coords[i], node_id_counter))
