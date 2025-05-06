@@ -15,9 +15,6 @@ Generated Autodrive Placeables.
         </en>
     </description>
     <l10n>
-        <text name="storeItem_emCrossing-custom">
-            <en>emCrossing custom</en>
-        </text>
         <text name="storeItem_emCrossing-oT-6m">
             <en>emCrossing oT 6m</en>
         </text>
@@ -40,7 +37,6 @@ Generated Autodrive Placeables.
     <multiplayer supported="true" />
     <iconFilename>icon_FS25_autodrive_placeables.dds</iconFilename>
     <storeItems>
-        <storeItem xmlFilename="emCrossing-custom.xml" />
         <storeItem xmlFilename="emCrossing-oT-6m.xml" />
         <storeItem xmlFilename="emCrossing-oX-6m.xml" />
         <storeItem xmlFilename="emCrossing-oX-Prio-6m.xml" />
