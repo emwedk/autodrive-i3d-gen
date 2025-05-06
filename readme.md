@@ -19,5 +19,6 @@ This tool generates placeables from Autodrive config files for FS25
 
 4. **Output**
    - The generated files will be located in the `FS25_autodrive_placeables` directory
-   - From here you can genere icons for the placeables with the FSIconGenerator
+   - From here you can generate icons for the placeables with the FSIconGenerator and make sure to format them as DXT1-5 by saving the icon as .dds in paint.net or equavilent.
+
 
