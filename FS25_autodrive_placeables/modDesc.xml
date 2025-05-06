@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <modDesc descVersion="93">
     <author>Emwe</author>
-	<contributors>AutoDrive Team, Willi Willswissen</contributors>
+    <contributors>AutoDrive Team, Willi Willswissen</contributors>
     <version>1.0.0.1</version>
-    <title> 
+    <title>
         <en>AutoDrive Generated Placeables</en>
     </title>
     <description>
@@ -14,11 +14,38 @@ Generated Autodrive Placeables.
 
         </en>
     </description>
-    
-    <l10n><text name="storeItem_emCrossing-oT-6m"><en>emCrossing oT 6m</en></text><text name="storeItem_emCrossing-oX-6m"><en>emCrossing oX 6m</en></text><text name="storeItem_emCrossing-oX-Prio-6m"><en>emCrossing oX Prio 6m</en></text><text name="storeItem_emCrossing-T-Median-6m"><en>emCrossing T Median 6m</en></text><text name="storeItem_emCrossing-T-Medians-6m"><en>emCrossing T Medians 6m</en></text><text name="storeItem_emCrossing-X-Median-6m"><en>emCrossing X Median 6m</en></text></l10n>
-
+    <l10n>
+        <text name="storeItem_emCrossing-custom">
+            <en>emCrossing custom</en>
+        </text>
+        <text name="storeItem_emCrossing-oT-6m">
+            <en>emCrossing oT 6m</en>
+        </text>
+        <text name="storeItem_emCrossing-oX-6m">
+            <en>emCrossing oX 6m</en>
+        </text>
+        <text name="storeItem_emCrossing-oX-Prio-6m">
+            <en>emCrossing oX Prio 6m</en>
+        </text>
+        <text name="storeItem_emCrossing-T-Median-6m">
+            <en>emCrossing T Median 6m</en>
+        </text>
+        <text name="storeItem_emCrossing-T-Medians-6m">
+            <en>emCrossing T Medians 6m</en>
+        </text>
+        <text name="storeItem_emCrossing-X-Median-6m">
+            <en>emCrossing X Median 6m</en>
+        </text>
+    </l10n>
     <multiplayer supported="true" />
-    <iconFilename>icon_FS25_autodrive_placeables.png</iconFilename>
-
-    <storeItems><storeItem xmlFilename="emCrossing-oT-6m.xml" /><storeItem xmlFilename="emCrossing-oX-6m.xml" /><storeItem xmlFilename="emCrossing-oX-Prio-6m.xml" /><storeItem xmlFilename="emCrossing-T-Median-6m.xml" /><storeItem xmlFilename="emCrossing-T-Medians-6m.xml" /><storeItem xmlFilename="emCrossing-X-Median-6m.xml" /></storeItems>
+    <iconFilename>icon_FS25_autodrive_placeables.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="emCrossing-custom.xml" />
+        <storeItem xmlFilename="emCrossing-oT-6m.xml" />
+        <storeItem xmlFilename="emCrossing-oX-6m.xml" />
+        <storeItem xmlFilename="emCrossing-oX-Prio-6m.xml" />
+        <storeItem xmlFilename="emCrossing-T-Median-6m.xml" />
+        <storeItem xmlFilename="emCrossing-T-Medians-6m.xml" />
+        <storeItem xmlFilename="emCrossing-X-Median-6m.xml" />
+    </storeItems>
 </modDesc>

@@ -1,79 +1,173 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
-<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="test.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
-  <Asset>
-    <Export program="GIANTS Editor 64bit" version="10.0.4" />
-  </Asset>
-
-  <Files>
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="emCrossing-T-Median-6m.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="10.0.4" />
+    </Asset>
+    <Files>
   </Files>
-
-
-  <Materials>
-    <Material name="aligner" materialId="809" diffuseColor="0.301961 0.301961 0.301961 1">
+    <Materials>
+        <Material name="aligner" materialId="227" diffuseColor="0.301961 0.301961 0.301961 1">
     </Material>
-    <Material name="beam" materialId="761" diffuseColor="0.901961 0.901961 0.901961 1">
+        <Material name="beam" materialId="228" diffuseColor="0.901961 0.901961 0.901961 1">
     </Material>
-    <Material name="blue" materialId="1066" diffuseColor="0.2 0.2 1 1">
+        <Material name="blue" materialId="229" diffuseColor="0 0 1 1">
     </Material>
-    <Material name="brown" materialId="1074" diffuseColor="0.501961 0.25098 0 1">
+        <Material name="brown" materialId="230" diffuseColor="0.501961 0.25098 0 1">
     </Material>
-    <Material name="cyan" materialId="1083" diffuseColor="0 1 1 1">
+        <Material name="cyan" materialId="231" diffuseColor="0 1 1 1">
     </Material>
-    <Material name="green" materialId="585" diffuseColor="0 1 0 1">
+        <Material name="green" materialId="232" diffuseColor="0 1 0 1">
     </Material>
-    <Material name="selector" materialId="588" diffuseColor="0 0 1 1">
+        <Material name="selector" materialId="233" diffuseColor="0 0 0.0509804 1">
     </Material>
-    <Material name="yellow" materialId="965" diffuseColor="1 1 0 1">
+        <Material name="yellow" materialId="234" diffuseColor="1 1 0 1">
     </Material>
-  </Materials>
-
-
-  <Shapes externalShapesFile="emCrossing-T-Median-6m.i3d.shapes">
+    </Materials>
+    <Shapes externalShapesFile="emCrossing-T-Median-6m.i3d.shapes">
   </Shapes>
-
-  <Scene>
-    <TransformGroup name="groundStain" clipDistance="300" nodeId="594">
-      <TransformGroup name="clearAreas" clipDistance="300" nodeId="595">
-        <TransformGroup name="clearArea1Start" translation="-0.5 0 -0.5" clipDistance="300" nodeId="596">
-          <TransformGroup name="clearArea1Width" translation="0 0 1" clipDistance="300" nodeId="597" />
-          <TransformGroup name="clearArea1Height" translation="1 0 0" clipDistance="300" nodeId="598" />
+    <Scene>
+        <TransformGroup name="groundStain" clipDistance="300" nodeId="243">
+            <TransformGroup name="clearAreas" clipDistance="300" nodeId="244">
+                <TransformGroup name="clearArea1Start" translation="-0.5 0 -0.5" clipDistance="300" nodeId="245">
+                    <TransformGroup name="clearArea1Width" translation="0 0 1" clipDistance="300" nodeId="246" />
+                    <TransformGroup name="clearArea1Height" translation="1 0 0" clipDistance="300" nodeId="247" />
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="levelAreas" clipDistance="300" nodeId="248">
+                <TransformGroup name="levelAreaStart01" nodeId="249">
+                    <TransformGroup name="levelAreaWidth01" nodeId="250" />
+                    <TransformGroup name="levelAreaHeight01" nodeId="251" />
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="testAreas" clipDistance="300" nodeId="252">
+                <TransformGroup name="testAreaStart01" nodeId="253">
+                    <TransformGroup name="testAreaStart01" nodeId="254" />
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="tipOcclusionUpdateAreas" clipDistance="300" nodeId="255" />
+            <TransformGroup name="positionRefs" clipDistance="300" nodeId="256">
+                <TransformGroup name="positionRef1" translation="0 0 3" clipDistance="300" nodeId="257" />
+                <TransformGroup name="positionRef2" translation="-3 0 -3" clipDistance="300" nodeId="258" />
+                <TransformGroup name="positionRef3" translation="3 0 -3" clipDistance="300" nodeId="259" />
+            </TransformGroup>
+            <TransformGroup name="tipCollision" clipDistance="300" nodeId="260" />
+            <TransformGroup name="visuals" clipDistance="300" nodeId="261">
+                <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="262" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="233" />
+                <Shape name="aligner" translation="0 0 4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="263" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227" />
+                <Shape name="aligner" translation="4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="264" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227" />
+                <Shape name="aligner" translation="0 0 -4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="265" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227" />
+                <Shape name="aligner" translation="-4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="266" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227" />
+                <TransformGroup name="generated" clipDistance="300" nodeId="267">
+                    <TransformGroup name="beams" nodeId="974">
+                        <Shape name="beam" translation="-36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1000" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1002" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="3.1 0.0 32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1004" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-3.1 0.0 32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1005" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 -14.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1006" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 -5.2" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1009" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1013" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 5.2" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1014" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.1 0.0 14.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1015" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-4.0 0.0 -5.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1016" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-4.0 0.0 5.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1018" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-16.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1021" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-16.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1022" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 -10.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1023" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 10.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1024" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-1.3 0.0 -7.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-1.3 0.0 7.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-26.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="3.1 0.0 -32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-3.1 0.0 -32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                    </TransformGroup>
+                    <TransformGroup name="lines" translation="0.0 0.9 0.0" nodeId="975">
+                        <TransformGroup name="blueLine" translation="-31.00 0.00 1.55" rotation="0 107.22 0" nodeId="1000">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 10.47 1" shapeId="6" clipDistance="300" nodeId="1000" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-26.00 0.00 3.10" rotation="0 90.00 0" nodeId="1001">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 20.00 1" shapeId="6" clipDistance="300" nodeId="1001" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-31.00 0.00 -1.55" rotation="0 72.78 0" nodeId="1002">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 10.47 1" shapeId="6" clipDistance="300" nodeId="1002" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-26.00 0.00 -3.10" rotation="0 90.00 0" nodeId="1003">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 20.00 1" shapeId="6" clipDistance="300" nodeId="1003" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="1.60 0.00 23.00" rotation="0 -170.54 0" nodeId="1004">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 18.25 1" shapeId="6" clipDistance="300" nodeId="1004" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-1.50 0.00 23.00" rotation="0 169.92 0" nodeId="1005">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 18.28 1" shapeId="6" clipDistance="300" nodeId="1005" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 -12.00" rotation="0 0.00 0" nodeId="1006">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 4.00 1" shapeId="6" clipDistance="300" nodeId="1006" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-1.55 0.00 -23.00" rotation="0 -170.23 0" nodeId="1007">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 18.26 1" shapeId="6" clipDistance="300" nodeId="1007" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="1.55 0.00 -23.00" rotation="0 170.23 0" nodeId="1008">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 18.26 1" shapeId="6" clipDistance="300" nodeId="1008" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 -2.60" rotation="0 0.00 0" nodeId="1009">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 5.20 1" shapeId="6" clipDistance="300" nodeId="1009" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 0.00" rotation="0 0.00 0" nodeId="1010">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 10.40 1" shapeId="6" clipDistance="300" nodeId="1010" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-2.00 0.00 -5.10" rotation="0 -87.14 0" nodeId="1011">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 4.00 1" shapeId="6" clipDistance="300" nodeId="1011" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 -7.60" rotation="0 180.00 0" nodeId="1012">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 4.80 1" shapeId="6" clipDistance="300" nodeId="1012" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 2.60" rotation="0 0.00 0" nodeId="1013">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 5.20 1" shapeId="6" clipDistance="300" nodeId="1013" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.00 0.00 7.60" rotation="0 0.00 0" nodeId="1014">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 4.80 1" shapeId="6" clipDistance="300" nodeId="1014" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="0.05 0.00 12.00" rotation="0 -178.57 0" nodeId="1015">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 4.00 1" shapeId="6" clipDistance="300" nodeId="1015" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-10.00 0.00 -4.05" rotation="0 -81.00 0" nodeId="1016">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 12.15 1" shapeId="6" clipDistance="300" nodeId="1016" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="brownLine" translation="-2.65 0.00 -6.00" rotation="0 126.53 0" nodeId="1017">
+                            <Shape name="brownLine" rotation="90 0 0" scale="1 3.36 1" shapeId="5" clipDistance="300" nodeId="1017" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="230" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-10.00 0.00 4.05" rotation="0 -99.00 0" nodeId="1018">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 12.15 1" shapeId="6" clipDistance="300" nodeId="1018" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="brownLine" translation="-2.65 0.00 6.00" rotation="0 53.47 0" nodeId="1019">
+                            <Shape name="brownLine" rotation="90 0 0" scale="1 3.36 1" shapeId="5" clipDistance="300" nodeId="1019" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="230" />
+                        </TransformGroup>
+                        <TransformGroup name="greenLine" translation="-2.00 0.00 5.10" rotation="0 87.14 0" nodeId="1022">
+                            <Shape name="greenLine" rotation="90 0 0" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1022" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
+                            <Shape name="greenArrowR" translation="-0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1021" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
+                            <Shape name="greenArrowL" translation="0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1022" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-21.00 0.00 1.55" rotation="0 -107.22 0" nodeId="1021">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 10.47 1" shapeId="6" clipDistance="300" nodeId="1021" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-21.00 0.00 -1.55" rotation="0 -72.78 0" nodeId="1022">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 10.47 1" shapeId="6" clipDistance="300" nodeId="1022" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="brownLine" translation="-0.65 0.00 -8.50" rotation="0 -23.43 0" nodeId="1023">
+                            <Shape name="brownLine" rotation="90 0 0" scale="1 3.27 1" shapeId="5" clipDistance="300" nodeId="1023" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="230" />
+                        </TransformGroup>
+                        <TransformGroup name="brownLine" translation="-0.65 0.00 8.50" rotation="0 -156.57 0" nodeId="1024">
+                            <Shape name="brownLine" rotation="90 0 0" scale="1 3.27 1" shapeId="5" clipDistance="300" nodeId="1024" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="230" />
+                        </TransformGroup>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="collisions" clipDistance="300" nodeId="287" />
+            <TransformGroup name="indoorAreas" nodeId="288">
+                <TransformGroup name="indoorAreaStart01" nodeId="289">
+                    <TransformGroup name="indoorAreaWidth01" nodeId="290" />
+                    <TransformGroup name="indoorAreaHeight01" nodeId="291" />
+                </TransformGroup>
+            </TransformGroup>
         </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="levelAreas" clipDistance="300" nodeId="599">
-        <TransformGroup name="levelAreaStart01" nodeId="600">
-          <TransformGroup name="levelAreaWidth01" nodeId="601" />
-          <TransformGroup name="levelAreaHeight01" nodeId="602" />
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="testAreas" clipDistance="300" nodeId="603">
-        <TransformGroup name="testAreaStart01" nodeId="604">
-          <TransformGroup name="testAreaStart01" nodeId="605" />
-        </TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" clipDistance="300" nodeId="606" />
-      <TransformGroup name="positionRefs" clipDistance="300" nodeId="607">
-        <TransformGroup name="positionRef1" translation="0 0 3" clipDistance="300" nodeId="608" />
-        <TransformGroup name="positionRef2" translation="-3 0 -3" clipDistance="300" nodeId="609" />
-        <TransformGroup name="positionRef3" translation="3 0 -3" clipDistance="300" nodeId="610" />
-      </TransformGroup>
-      <TransformGroup name="tipCollision" clipDistance="300" nodeId="611" />
-      <TransformGroup name="visuals" clipDistance="300" nodeId="612">
-        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="613" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="588" />
-        <Shape name="aligner" translation="0 0 4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="614" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809" />
-        <Shape name="aligner" translation="4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="615" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809" />
-        <Shape name="aligner" translation="0 0 -4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="616" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809" />
-        <Shape name="aligner" translation="-4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="617" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809" />
-        <TransformGroup name="generated" nodeId="1090">
-          <TransformGroup name="beams" nodeId="974"><Shape name="beam" translation="-36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1000" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1002" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="3.1 0.0 32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1004" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-3.1 0.0 32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1005" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 -14.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1006" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 -5.2" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1009" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1013" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 5.2" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1015" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.1 0.0 14.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1018" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-4.0 0.0 -5.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1021" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-4.0 0.0 5.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1024" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-16.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1027" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-16.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1030" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 -10.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1033" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="0.0 0.0 10.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1036" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-1.3 0.0 -7.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1039" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-1.3 0.0 7.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1041" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-26.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1043" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="3.1 0.0 -32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1047" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /><Shape name="beam" translation="-3.1 0.0 -32.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1048" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761" /></TransformGroup><TransformGroup name="lines" translation="0.0 0.9 0.0" nodeId="975"><TransformGroup name="blueLine" translation="-31.00 0.00 1.55" rotation="0 17.22 0" nodeId="1000"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1000" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-26.00 0.00 3.10" rotation="0 -0.00 0" nodeId="1001"><Shape name="blueLine" rotation="180 0 90" scale="1 20.00 1" shapeId="4" clipDistance="300" nodeId="1001" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-31.00 0.00 -1.55" rotation="0 -17.22 0" nodeId="1002"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1002" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-26.00 0.00 -3.10" rotation="0 -0.00 0" nodeId="1003"><Shape name="blueLine" rotation="180 0 90" scale="1 20.00 1" shapeId="4" clipDistance="300" nodeId="1003" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="1.60 0.00 23.00" rotation="0 99.46 0" nodeId="1004"><Shape name="blueLine" rotation="180 0 90" scale="1 18.25 1" shapeId="4" clipDistance="300" nodeId="1004" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-1.50 0.00 23.00" rotation="0 79.92 0" nodeId="1005"><Shape name="blueLine" rotation="180 0 90" scale="1 18.28 1" shapeId="4" clipDistance="300" nodeId="1005" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -12.00" rotation="0 -90.00 0" nodeId="1006"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1006" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-1.55 0.00 -23.00" rotation="0 99.77 0" nodeId="1007"><Shape name="blueLine" rotation="180 0 90" scale="1 18.26 1" shapeId="4" clipDistance="300" nodeId="1007" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="1.55 0.00 -23.00" rotation="0 80.23 0" nodeId="1008"><Shape name="blueLine" rotation="180 0 90" scale="1 18.26 1" shapeId="4" clipDistance="300" nodeId="1008" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -2.60" rotation="0 -90.00 0" nodeId="1009"><Shape name="blueLine" rotation="180 0 90" scale="1 5.20 1" shapeId="4" clipDistance="300" nodeId="1009" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 0.00" rotation="0 -90.00 0" nodeId="1010"><Shape name="blueLine" rotation="180 0 90" scale="1 10.40 1" shapeId="4" clipDistance="300" nodeId="1010" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-2.00 0.00 -5.10" rotation="0 -177.14 0" nodeId="1011"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1011" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -7.60" rotation="0 90.00 0" nodeId="1012"><Shape name="blueLine" rotation="180 0 90" scale="1 4.80 1" shapeId="4" clipDistance="300" nodeId="1012" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 2.60" rotation="0 -90.00 0" nodeId="1013"><Shape name="blueLine" rotation="180 0 90" scale="1 5.20 1" shapeId="4" clipDistance="300" nodeId="1013" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -2.60" rotation="0 90.00 0" nodeId="1014"><Shape name="blueLine" rotation="180 0 90" scale="1 5.20 1" shapeId="4" clipDistance="300" nodeId="1014" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 2.60" rotation="0 90.00 0" nodeId="1015"><Shape name="blueLine" rotation="180 0 90" scale="1 5.20 1" shapeId="4" clipDistance="300" nodeId="1015" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 0.00" rotation="0 90.00 0" nodeId="1016"><Shape name="blueLine" rotation="180 0 90" scale="1 10.40 1" shapeId="4" clipDistance="300" nodeId="1016" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 7.60" rotation="0 -90.00 0" nodeId="1017"><Shape name="blueLine" rotation="180 0 90" scale="1 4.80 1" shapeId="4" clipDistance="300" nodeId="1017" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.05 0.00 12.00" rotation="0 91.43 0" nodeId="1018"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1018" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="1.60 0.00 23.00" rotation="0 -80.54 0" nodeId="1019"><Shape name="blueLine" rotation="180 0 90" scale="1 18.25 1" shapeId="4" clipDistance="300" nodeId="1019" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-1.50 0.00 23.00" rotation="0 -100.08 0" nodeId="1020"><Shape name="blueLine" rotation="180 0 90" scale="1 18.28 1" shapeId="4" clipDistance="300" nodeId="1020" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-10.00 0.00 -4.05" rotation="0 -171.00 0" nodeId="1021"><Shape name="blueLine" rotation="180 0 90" scale="1 12.15 1" shapeId="4" clipDistance="300" nodeId="1021" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-2.00 0.00 -5.10" rotation="0 2.86 0" nodeId="1022"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1022" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-2.65 0.00 -6.00" rotation="0 36.53 0" nodeId="1023"><Shape name="blueLine" rotation="180 0 90" scale="1 3.36 1" shapeId="4" clipDistance="300" nodeId="1023" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-10.00 0.00 4.05" rotation="0 171.00 0" nodeId="1024"><Shape name="blueLine" rotation="180 0 90" scale="1 12.15 1" shapeId="4" clipDistance="300" nodeId="1024" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-2.65 0.00 6.00" rotation="0 -36.53 0" nodeId="1025"><Shape name="blueLine" rotation="180 0 90" scale="1 3.36 1" shapeId="4" clipDistance="300" nodeId="1025" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="greenLine" translation="-2.00 0.00 5.10" rotation="0 -2.86 0" nodeId="1028"><Shape name="greenLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1028" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585" /><Shape name="greenArrowR" translation="0.032 0 0.0315634" rotation="45 0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1027" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585" /><Shape name="greenArrowL" translation="0.032 0 -0.032" rotation="-45 0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1028" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585" /></TransformGroup><TransformGroup name="blueLine" translation="-10.00 0.00 4.05" rotation="0 -9.00 0" nodeId="1027"><Shape name="blueLine" rotation="180 0 90" scale="1 12.15 1" shapeId="4" clipDistance="300" nodeId="1027" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-21.00 0.00 1.55" rotation="0 162.78 0" nodeId="1028"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1028" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-26.00 0.00 3.10" rotation="0 -180.00 0" nodeId="1029"><Shape name="blueLine" rotation="180 0 90" scale="1 20.00 1" shapeId="4" clipDistance="300" nodeId="1029" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-10.00 0.00 -4.05" rotation="0 9.00 0" nodeId="1030"><Shape name="blueLine" rotation="180 0 90" scale="1 12.15 1" shapeId="4" clipDistance="300" nodeId="1030" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-21.00 0.00 -1.55" rotation="0 -162.78 0" nodeId="1031"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1031" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-26.00 0.00 -3.10" rotation="0 -180.00 0" nodeId="1032"><Shape name="blueLine" rotation="180 0 90" scale="1 20.00 1" shapeId="4" clipDistance="300" nodeId="1032" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-0.65 0.00 -8.50" rotation="0 -113.43 0" nodeId="1033"><Shape name="blueLine" rotation="180 0 90" scale="1 3.27 1" shapeId="4" clipDistance="300" nodeId="1033" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -7.60" rotation="0 -90.00 0" nodeId="1034"><Shape name="blueLine" rotation="180 0 90" scale="1 4.80 1" shapeId="4" clipDistance="300" nodeId="1034" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 -12.00" rotation="0 90.00 0" nodeId="1035"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1035" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-0.65 0.00 8.50" rotation="0 113.43 0" nodeId="1036"><Shape name="blueLine" rotation="180 0 90" scale="1 3.27 1" shapeId="4" clipDistance="300" nodeId="1036" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.05 0.00 12.00" rotation="0 -88.57 0" nodeId="1037"><Shape name="blueLine" rotation="180 0 90" scale="1 4.00 1" shapeId="4" clipDistance="300" nodeId="1037" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="0.00 0.00 7.60" rotation="0 90.00 0" nodeId="1038"><Shape name="blueLine" rotation="180 0 90" scale="1 4.80 1" shapeId="4" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="brownLine" translation="-2.65 0.00 -6.00" rotation="0 -143.47 0" nodeId="1039"><Shape name="brownLine" rotation="180 0 90" scale="1 3.36 1" shapeId="4" clipDistance="300" nodeId="1039" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1074" /></TransformGroup><TransformGroup name="brownLine" translation="-0.65 0.00 -8.50" rotation="0 66.57 0" nodeId="1040"><Shape name="brownLine" rotation="180 0 90" scale="1 3.27 1" shapeId="4" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1074" /></TransformGroup><TransformGroup name="brownLine" translation="-2.65 0.00 6.00" rotation="0 143.47 0" nodeId="1041"><Shape name="brownLine" rotation="180 0 90" scale="1 3.36 1" shapeId="4" clipDistance="300" nodeId="1041" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1074" /></TransformGroup><TransformGroup name="brownLine" translation="-0.65 0.00 8.50" rotation="0 -66.57 0" nodeId="1042"><Shape name="brownLine" rotation="180 0 90" scale="1 3.27 1" shapeId="4" clipDistance="300" nodeId="1042" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1074" /></TransformGroup><TransformGroup name="blueLine" translation="-21.00 0.00 -1.55" rotation="0 17.22 0" nodeId="1043"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1043" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-21.00 0.00 1.55" rotation="0 -17.22 0" nodeId="1044"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1044" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-31.00 0.00 -1.55" rotation="0 162.78 0" nodeId="1045"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1045" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-31.00 0.00 1.55" rotation="0 -162.78 0" nodeId="1046"><Shape name="blueLine" rotation="180 0 90" scale="1 10.47 1" shapeId="4" clipDistance="300" nodeId="1046" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="1.55 0.00 -23.00" rotation="0 -99.77 0" nodeId="1047"><Shape name="blueLine" rotation="180 0 90" scale="1 18.26 1" shapeId="4" clipDistance="300" nodeId="1047" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup><TransformGroup name="blueLine" translation="-1.55 0.00 -23.00" rotation="0 -80.23 0" nodeId="1048"><Shape name="blueLine" rotation="180 0 90" scale="1 18.26 1" shapeId="4" clipDistance="300" nodeId="1048" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066" /></TransformGroup></TransformGroup></TransformGroup>
-      </TransformGroup>
-      <TransformGroup name="collisions" clipDistance="300" nodeId="734" />
-      <TransformGroup name="indoorAreas" nodeId="735">
-        <TransformGroup name="indoorAreaStart01" nodeId="736">
-          <TransformGroup name="indoorAreaWidth01" nodeId="737" />
-          <TransformGroup name="indoorAreaHeight01" nodeId="738" />
-        </TransformGroup>
-      </TransformGroup>
-    </TransformGroup>
-  </Scene>
-
+    </Scene>
 </i3D>

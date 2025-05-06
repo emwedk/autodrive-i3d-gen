@@ -18,7 +18,7 @@ Generated Autodrive Placeables.
     <l10n></l10n>
 
     <multiplayer supported="true"/>
-    <iconFilename>icon_PLACEHOLDER.png</iconFilename>
+    <iconFilename>icon_PLACEHOLDER.dds</iconFilename>
 
     <storeItems></storeItems>
 </modDesc>
