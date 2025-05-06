@@ -273,11 +273,6 @@ def main():
         "moddesc":  os.path.join('placeholders', 'modDesc.xml'),
         "icon":     os.path.join('placeholders', 'icon.dds'),
     }
-    # input_i3d =     os.path.join('placeholders', 'placeholder.i3d')
-    # shapes_file =   os.path.join('placeholders', 'placeholder.i3d.shapes')
-    # template_xml =  os.path.join('placeholders', 'placeholder.xml')
-    # mod_desc_file = os.path.join('placeholders', 'modDesc.xml')
-    # icon_file =     os.path.join('placeholders', 'icon.dds')
     mod_folder = 'FS25_autodrive_placeables'
 
     mod_desc_path = os.path.join(mod_folder, os.path.split(placeholders["moddesc"])[1])
