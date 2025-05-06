@@ -27,13 +27,11 @@
         <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
-
     <base>
         <filename>emCrossing-T-Median-6m.i3d</filename>
         <boughtWithFarmland>false</boughtWithFarmland>
         <canBeRenamed>false</canBeRenamed>
     </base>
-
     <placement useRandomYRotation="false" useManualYRotation="false" alignToWorldY="false" pos1Node="positionRef1" pos2Node="positionRef2" pos3Node="positionRef3">
         <testAreas>
             <testArea startNode="testAreaStart01" endNode="testAreaEnd01" />
@@ -42,46 +40,39 @@
             <place template="largeImp" />
         </sounds>
     </placement>
-
     <clearAreas>
         <clearArea startNode="clearArea1Start" widthNode="clearArea1Width" heightNode="clearArea1Height" />
     </clearAreas>
-
     <leveling requireLeveling="false" maxSmoothDistance="1" maxSlope="75" maxEdgeAngle="30">
         <levelAreas>
             <levelArea startNode="levelAreaStart01" widthNode="levelAreaWidth01" heightNode="levelAreaHeight01" groundType="asphalt" />
         </levelAreas>
     </leveling>
-
     <indoorAreas>
         <indoorArea startNode="indoorAreaStart01" widthNode="indoorAreaWidth01" heightNode="indoorAreaHeight01" />
     </indoorAreas>
-
     <tipOcclusionUpdateAreas />
-
     <ai>
         <updateAreas />
     </ai>
-
     <AutoDrive>
+        <waypoints>
+            <id>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</id>
+            <x>-36.0,-36.0,3.1,-3.1,0.0,0.0,0.0,0.0,0.1,-4.0,-4.0,-16.0,-16.0,0.0,0.0,-1.3,-1.3,-26.0,3.1,-3.1</x>
+            <y>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</y>
+            <z>3.1,-3.1,32.0,32.0,-14.0,-5.2,0.0,5.2,14.0,-5.0,5.0,3.1,-3.1,-10.0,10.0,-7.0,7.0,0.0,-32.0,-32.0</z>
+            <out>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,15;15,3,4;13,6,16;12,17,8;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</out>
+            <incoming>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,11,15;15,3,4;13,6,16;12,17;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</incoming>
+            <flags>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0</flags>
+        </waypoints>
         <mapmarker>
             <mm1>
-                <id>1.000000</id>
+                <id>7.0</id>
                 <name>emCrossing-T-Median-6m</name>
-                <group>emCrossing-T-Median-6m</group>
+                <group>generated</group>
             </mm1>
         </mapmarker>
-    <waypoints>
-    <id>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</id>
-    <x>-36.0,-36.0,3.1,-3.1,0.0,0.0,0.0,0.0,0.1,-4.0,-4.0,-16.0,-16.0,0.0,0.0,-1.3,-1.3,-26.0,3.1,-3.1</x>
-    <y>0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0</y>
-    <z>3.1,-3.1,32.0,32.0,-14.0,-5.2,0.0,5.2,14.0,-5.0,5.0,3.1,-3.1,-10.0,10.0,-7.0,7.0,0.0,-32.0,-32.0</z>
-    <out>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,15;15,3,4;13,6,16;12,17,8;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</out>
-    <incoming>18,12;18,13;9;9;14,20,19;7,8,10,14;8,6;7,6,11,15;15,3,4;13,6,16;12,17;11,18,1;10,18,2;16,6,5;17,9,8;10,14;11,15;13,12,2,1;5;5</incoming>
-    <flags>0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0</flags>
-  </waypoints>
-</AutoDrive>
-
+    </AutoDrive>
     <i3dMappings>
         <i3dMapping id="clearArea1Start" node="0&gt;0|0" />
         <i3dMapping id="clearArea1Width" node="0&gt;0|0|0" />

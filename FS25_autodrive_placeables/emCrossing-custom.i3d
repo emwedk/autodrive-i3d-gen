@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
-<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="emCrossing-oT-6m.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="emCrossing-custom.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
     <Asset>
         <Export program="GIANTS Editor 64bit" version="10.0.4" />
     </Asset>
@@ -23,7 +23,7 @@
         <Material name="yellow" materialId="234" diffuseColor="1 1 0 1">
     </Material>
     </Materials>
-    <Shapes externalShapesFile="emCrossing-oT-6m.i3d.shapes">
+    <Shapes externalShapesFile="emCrossing-custom.i3d.shapes">
   </Shapes>
     <Scene>
         <TransformGroup name="groundStain" clipDistance="300" nodeId="243">
@@ -82,13 +82,13 @@
                         <Shape name="beam" translation="3.3 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1031" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
                         <Shape name="beam" translation="-16.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1032" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
                         <Shape name="beam" translation="16.0 0.0 0.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1034" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="0.0 0.0 16.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1036" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="3.1 0.0 36.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="-3.1 0.0 36.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="-36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
-                        <Shape name="beam" translation="-36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="0.0 0.0 16.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1037" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="3.1 0.0 36.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-3.1 0.0 36.0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-36.0 0.0 -3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
+                        <Shape name="beam" translation="-36.0 0.0 3.1" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228" />
                     </TransformGroup>
                     <TransformGroup name="lines" translation="0.0 0.9 0.0" nodeId="975">
                         <TransformGroup name="blueLine" translation="-8.00 0.00 0.00" rotation="0 -90.00 0" nodeId="1000">
@@ -199,11 +199,21 @@
                         <TransformGroup name="blueLine" translation="26.00 0.00 1.55" rotation="0 81.19 0" nodeId="1035">
                             <Shape name="blueLine" rotation="90 0 0" scale="1 20.24 1" shapeId="6" clipDistance="300" nodeId="1035" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
                         </TransformGroup>
-                        <TransformGroup name="blueLine" translation="1.55 0.00 26.00" rotation="0 8.81 0" nodeId="1036">
-                            <Shape name="blueLine" rotation="90 0 0" scale="1 20.24 1" shapeId="6" clipDistance="300" nodeId="1036" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        <TransformGroup name="cyanLine" translation="8.00 0.00 8.00" rotation="0 -45.00 0" nodeId="1038">
+                            <Shape name="cyanLine" rotation="90 0 0" scale="1 22.63 1" shapeId="8" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231" />
+                            <Shape name="cyanArrowR" translation="-0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="8" clipDistance="300" nodeId="1037" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231" />
+                            <Shape name="cyanArrowL" translation="0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="8" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231" />
                         </TransformGroup>
-                        <TransformGroup name="blueLine" translation="-1.55 0.00 26.00" rotation="0 -8.81 0" nodeId="1037">
+                        <TransformGroup name="blueLine" translation="1.55 0.00 26.00" rotation="0 8.81 0" nodeId="1037">
                             <Shape name="blueLine" rotation="90 0 0" scale="1 20.24 1" shapeId="6" clipDistance="300" nodeId="1037" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="blueLine" translation="-1.55 0.00 26.00" rotation="0 -8.81 0" nodeId="1038">
+                            <Shape name="blueLine" rotation="90 0 0" scale="1 20.24 1" shapeId="6" clipDistance="300" nodeId="1038" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229" />
+                        </TransformGroup>
+                        <TransformGroup name="greenLine" translation="-8.00 0.00 8.00" rotation="0 -135.00 0" nodeId="1041">
+                            <Shape name="greenLine" rotation="90 0 0" scale="1 22.63 1" shapeId="4" clipDistance="300" nodeId="1041" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
+                            <Shape name="greenArrowR" translation="-0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1040" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
+                            <Shape name="greenArrowL" translation="0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1041" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232" />
                         </TransformGroup>
                     </TransformGroup>
                 </TransformGroup>

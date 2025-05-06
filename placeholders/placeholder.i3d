@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="test.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="placeholder.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
     <Export program="GIANTS Editor 64bit" version="10.0.4"/>
   </Asset>
@@ -10,94 +10,94 @@
 
 
   <Materials>
-    <Material name="aligner" materialId="809" diffuseColor="0.301961 0.301961 0.301961 1">
+    <Material name="aligner" materialId="227" diffuseColor="0.301961 0.301961 0.301961 1">
     </Material>
-    <Material name="beam" materialId="761" diffuseColor="0.901961 0.901961 0.901961 1">
+    <Material name="beam" materialId="228" diffuseColor="0.901961 0.901961 0.901961 1">
     </Material>
-    <Material name="blue" materialId="1066" diffuseColor="0.2 0.2 1 1">
+    <Material name="blue" materialId="229" diffuseColor="0 0 1 1">
     </Material>
-    <Material name="brown" materialId="1074" diffuseColor="0.501961 0.25098 0 1">
+    <Material name="brown" materialId="230" diffuseColor="0.501961 0.25098 0 1">
     </Material>
-    <Material name="cyan" materialId="1083" diffuseColor="0 1 1 1">
+    <Material name="cyan" materialId="231" diffuseColor="0 1 1 1">
     </Material>
-    <Material name="green" materialId="585" diffuseColor="0 1 0 1">
+    <Material name="green" materialId="232" diffuseColor="0 1 0 1">
     </Material>
-    <Material name="selector" materialId="588" diffuseColor="0 0 1 1">
+    <Material name="selector" materialId="233" diffuseColor="0 0 0.0509804 1">
     </Material>
-    <Material name="yellow" materialId="965" diffuseColor="1 1 0 1">
+    <Material name="yellow" materialId="234" diffuseColor="1 1 0 1">
     </Material>
   </Materials>
 
 
-  <Shapes externalShapesFile="test.i3d.shapes">
+  <Shapes externalShapesFile="placeholder.i3d.shapes">
   </Shapes>
 
   <Scene>
-    <TransformGroup name="groundStain" clipDistance="300" nodeId="594">
-      <TransformGroup name="clearAreas" clipDistance="300" nodeId="595">
-        <TransformGroup name="clearArea1Start" translation="-0.5 0 -0.5" clipDistance="300" nodeId="596">
-          <TransformGroup name="clearArea1Width" translation="0 0 1" clipDistance="300" nodeId="597"/>
-          <TransformGroup name="clearArea1Height" translation="1 0 0" clipDistance="300" nodeId="598"/>
+    <TransformGroup name="groundStain" clipDistance="300" nodeId="243">
+      <TransformGroup name="clearAreas" clipDistance="300" nodeId="244">
+        <TransformGroup name="clearArea1Start" translation="-0.5 0 -0.5" clipDistance="300" nodeId="245">
+          <TransformGroup name="clearArea1Width" translation="0 0 1" clipDistance="300" nodeId="246"/>
+          <TransformGroup name="clearArea1Height" translation="1 0 0" clipDistance="300" nodeId="247"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="levelAreas" clipDistance="300" nodeId="599">
-        <TransformGroup name="levelAreaStart01" nodeId="600">
-          <TransformGroup name="levelAreaWidth01" nodeId="601"/>
-          <TransformGroup name="levelAreaHeight01" nodeId="602"/>
+      <TransformGroup name="levelAreas" clipDistance="300" nodeId="248">
+        <TransformGroup name="levelAreaStart01" nodeId="249">
+          <TransformGroup name="levelAreaWidth01" nodeId="250"/>
+          <TransformGroup name="levelAreaHeight01" nodeId="251"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="testAreas" clipDistance="300" nodeId="603">
-        <TransformGroup name="testAreaStart01" nodeId="604">
-          <TransformGroup name="testAreaStart01" nodeId="605"/>
+      <TransformGroup name="testAreas" clipDistance="300" nodeId="252">
+        <TransformGroup name="testAreaStart01" nodeId="253">
+          <TransformGroup name="testAreaStart01" nodeId="254"/>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="tipOcclusionUpdateAreas" clipDistance="300" nodeId="606"/>
-      <TransformGroup name="positionRefs" clipDistance="300" nodeId="607">
-        <TransformGroup name="positionRef1" translation="0 0 3" clipDistance="300" nodeId="608"/>
-        <TransformGroup name="positionRef2" translation="-3 0 -3" clipDistance="300" nodeId="609"/>
-        <TransformGroup name="positionRef3" translation="3 0 -3" clipDistance="300" nodeId="610"/>
+      <TransformGroup name="tipOcclusionUpdateAreas" clipDistance="300" nodeId="255"/>
+      <TransformGroup name="positionRefs" clipDistance="300" nodeId="256">
+        <TransformGroup name="positionRef1" translation="0 0 3" clipDistance="300" nodeId="257"/>
+        <TransformGroup name="positionRef2" translation="-3 0 -3" clipDistance="300" nodeId="258"/>
+        <TransformGroup name="positionRef3" translation="3 0 -3" clipDistance="300" nodeId="259"/>
       </TransformGroup>
-      <TransformGroup name="tipCollision" clipDistance="300" nodeId="611"/>
-      <TransformGroup name="visuals" clipDistance="300" nodeId="612">
-        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="613" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="588"/>
-        <Shape name="aligner" translation="0 0 4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="614" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809"/>
-        <Shape name="aligner" translation="4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="615" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809"/>
-        <Shape name="aligner" translation="0 0 -4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="616" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809"/>
-        <Shape name="aligner" translation="-4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="617" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="809"/>
-        <TransformGroup name="generated" nodeId="1090">
-          <TransformGroup name="beams" nodeId="974">
-            <Shape name="beam" translation="0 0 0" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="712" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="761"/>
+      <TransformGroup name="tipCollision" clipDistance="300" nodeId="260"/>
+      <TransformGroup name="visuals" clipDistance="300" nodeId="261">
+        <Shape name="plane" translation="0 1.25 0" shapeId="1" static="true" collisionFilterGroup="0x10000000" collisionFilterMask="0x10000000" clipDistance="300" nodeId="262" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="233"/>
+        <Shape name="aligner" translation="0 0 4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="263" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227"/>
+        <Shape name="aligner" translation="4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="264" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227"/>
+        <Shape name="aligner" translation="0 0 -4.5" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="265" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227"/>
+        <Shape name="aligner" translation="-4.5 0 -1.59648e-07" rotation="0 90 0" scale="0.0501617 0.5 5" shapeId="2" clipDistance="300" nodeId="266" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="227"/>
+        <TransformGroup name="generated" clipDistance="300" nodeId="267">
+          <TransformGroup name="beams" clipDistance="300" nodeId="268">
+            <Shape name="beam" scale="0.1 2 0.1" shapeId="3" clipDistance="300" nodeId="269" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="228"/>
           </TransformGroup>
-          <TransformGroup name="lines" translation="0 0.9 0" nodeId="975">
-            <TransformGroup name="greenLine" translation="0 0 2" rotation="0 0 0" nodeId="874">
-              <Shape name="greenLine" rotation="180 0 90" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="895" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585"/>
-              <Shape name="greenArrowR" translation="-0.032 0 0.0315634" rotation="45 0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="887" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585"/>
-              <Shape name="greenArrowL" translation="-0.032 0 -0.032" rotation="-45 -0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="888" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="585"/>
+          <TransformGroup name="lines" translation="0 0.9 0" clipDistance="300" nodeId="270">
+            <TransformGroup name="greenLine" translation="0.5 0 0" clipDistance="300" nodeId="271">
+              <Shape name="greenLine" rotation="90 -0 0" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="272" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232"/>
+              <Shape name="greenArrowR" translation="-0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="273" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232"/>
+              <Shape name="greenArrowL" translation="0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="274" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="232"/>
             </TransformGroup>
-            <TransformGroup name="yellowLine" translation="0 0 1.75" rotation="0 0 0" nodeId="952">
-              <Shape name="yellowLine" rotation="180 0 90" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="955" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="965"/>
-              <Shape name="yellowArrowR" translation="-0.032 0 0.0315634" rotation="45 0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="953" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="965"/>
-              <Shape name="yellowArrowL" translation="-0.032 0 -0.032" rotation="-45 -0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="954" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="965"/>
+            <TransformGroup name="yellowLine" translation="0.25 0 0" clipDistance="300" nodeId="275">
+              <Shape name="yellowLine" rotation="90 0 0" scale="1 3 1" shapeId="5" clipDistance="300" nodeId="276" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="234"/>
+              <Shape name="yellowArrowR" translation="-0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="5" clipDistance="300" nodeId="277" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="234"/>
+              <Shape name="yellowArrowL" translation="0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="5" clipDistance="300" nodeId="278" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="234"/>
             </TransformGroup>
-            <TransformGroup name="blueLine" translation="0 0 1.5" rotation="0 0 0" nodeId="1008">
-              <Shape name="blueLine" rotation="180 0 90" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="1011" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1066"/>
+            <TransformGroup name="blueLine" clipDistance="300" nodeId="279">
+              <Shape name="blueLine" rotation="90 0 0" scale="1 3 1" shapeId="6" clipDistance="300" nodeId="280" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="229"/>
             </TransformGroup>
-            <TransformGroup name="brownLine" translation="0 0 1.25" rotation="0 0 0" nodeId="1012">
-              <Shape name="brownLine" rotation="180 0 90" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="1015" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1074"/>
+            <TransformGroup name="brownLine" translation="-0.25 0 0" clipDistance="300" nodeId="281">
+              <Shape name="brownLine" rotation="90 0 0" scale="1 3 1" shapeId="7" clipDistance="300" nodeId="282" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="230"/>
             </TransformGroup>
-            <TransformGroup name="cyanLine" translation="0 0 1" rotation="0 0 0" nodeId="1016">
-              <Shape name="cyanLine" rotation="180 0 90" scale="1 3 1" shapeId="4" clipDistance="300" nodeId="1019" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1083"/>
-              <Shape name="cyanArrowR" translation="-0.032 0 0.0315634" rotation="-45 0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1017" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1083"/>
-              <Shape name="cyanArrowL" translation="-0.032 0 -0.032" rotation="45 -0 90" scale="1 0.1 1" shapeId="4" clipDistance="300" nodeId="1018" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="1083"/>
+            <TransformGroup name="cyanLine" translation="-0.5 0 0" clipDistance="300" nodeId="283">
+              <Shape name="cyanLine" rotation="90 0 0" scale="1 3 1" shapeId="8" clipDistance="300" nodeId="304" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231"/>
+              <Shape name="cyanArrowR" translation="0.032 0 0.032" rotation="90 45 0" scale="1 0.1 1" shapeId="8" clipDistance="300" nodeId="311" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231"/>
+              <Shape name="cyanArrowL" translation="-0.032 0 0.032" rotation="90 -45 0" scale="1 0.1 1" shapeId="8" clipDistance="300" nodeId="312" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="231"/>
             </TransformGroup>
           </TransformGroup>
         </TransformGroup>
       </TransformGroup>
-      <TransformGroup name="collisions" clipDistance="300" nodeId="734"/>
-      <TransformGroup name="indoorAreas" nodeId="735">
-        <TransformGroup name="indoorAreaStart01" nodeId="736">
-          <TransformGroup name="indoorAreaWidth01" nodeId="737"/>
-          <TransformGroup name="indoorAreaHeight01" nodeId="738"/>
+      <TransformGroup name="collisions" clipDistance="300" nodeId="287"/>
+      <TransformGroup name="indoorAreas" nodeId="288">
+        <TransformGroup name="indoorAreaStart01" nodeId="289">
+          <TransformGroup name="indoorAreaWidth01" nodeId="290"/>
+          <TransformGroup name="indoorAreaHeight01" nodeId="291"/>
         </TransformGroup>
       </TransformGroup>
     </TransformGroup>
